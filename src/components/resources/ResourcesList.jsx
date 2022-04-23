@@ -7,6 +7,7 @@ const ResourcesList = () => {
             <h3>Extra resources</h3>
             <ul>
                 <li><a href="https://deanofstudents.utexas.edu/emergency/utoutpost.php">UT Outpost</a></li>
+                <li><a href="https://socialwork.utexas.edu/student-resources/financial/food-pantry/">School of Social Work Food Pantry</a></li>
             </ul>
         </Container>
     );
