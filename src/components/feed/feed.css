@@ -1,0 +1,51 @@
+.feedCard {
+    cursor: pointer;
+}
+
+.custom-card {
+  margin: 10px;
+  padding: 10px;
+  flex-grow: 1;
+  box-shadow: 0 1px 10px rgba(32, 31, 30, .2), 0 5px 40px rgba(17, 16, 15, .1);
+  border-radius: 15px;
+  border-color: white;
+}
+
+.modal-content, .dropdown-menu {
+    box-shadow: 0 1px 10px rgba(32, 31, 30, .2), 0 5px 40px rgba(17, 16, 15, .1);
+    border-radius: 15px;
+    border-color: white;
+}
+
+.header {
+    color: #bf5700;
+    text-align: left;
+    margin: 15px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.feed-content {
+    font-weight: 300;
+}
+
+.feed-title {
+    color: #bf5700;
+}
+
+/* .iconButton {
+    background-color: transparent !important;
+    color: #bf5700;
+    border-color: transparent !important;
+    border-radius: 10px;
+} */
+
+/* .iconButton:hover, .iconButton:active, .iconButton:focus {
+    background-color: #bf5700;
+    border-color: rgb(191, 87, 0);
+}
+
+.iconButton:focus, .iconButton:focus-visible, .iconButton:active:focus {
+    box-shadow: 0 0 0 .25rem rgba(191,87,0,.5);
+} */

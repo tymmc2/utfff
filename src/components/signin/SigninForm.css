@@ -1,0 +1,17 @@
+.signin-form {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.signin-input {
+    margin: 15px;
+}
+
+@media (max-width: 576px) {
+    .signin-form {
+        width: 100%;
+    }
+}

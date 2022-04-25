@@ -1,0 +1,17 @@
+.bar {
+    height: 1px;
+    background-color: #bf5700;
+    width: 100%;
+    margin: 10px;
+}
+
+.sepRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleText {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}

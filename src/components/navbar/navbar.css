@@ -5,3 +5,14 @@
 .nav-link:hover {
     color: #bf5700 !important;
 }
+
+.dropdown-link:hover, .dropdown-link.active, .dropdown-link:focus, .dropdown-link:active {
+    background-color: transparent;
+}
+
+.fnavbar {
+    position: fixed;
+    width: 100%; 
+    top: 0px;
+    z-index: 1000;
+}

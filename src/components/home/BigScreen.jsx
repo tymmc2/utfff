@@ -9,7 +9,7 @@ const BigScreen = () => {
             <Container style={{ height: '100%' }}>
                 <div className="centered-box">
                     <h1>Find free food at UT!</h1>
-                    <Button><Link style={{ color: 'white', textDecoration: 'none' }} to="/feed">Find</Link></Button>
+                    <Link style={{ color: 'white', textDecoration: 'none' }} to="/feed"><Button>Find</Button></Link>
                 </div>
             </Container>
         </div>

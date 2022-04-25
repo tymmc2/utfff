@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.feedCard {
-    margin: 10px;
-    padding: 10px;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-primary {
+  background-color: #bf5700 !important;
+  border-color: #bf5700 !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #bf5700 !important;
+  border-color: rgb(191, 87, 0) !important;
+}
+
+.btn-primary:focus, .btn-primary:focus-visible, .btn-primary:active:focus {
+  box-shadow: 0 0 0 .25rem rgba(191,87,0,.5) !important;
+}
+
+li a {
+  color: #bf5700;
+  text-decoration: none;
+}
+
+li a:active, li a:focus, li a:visited {
+  color: #bf5700;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
